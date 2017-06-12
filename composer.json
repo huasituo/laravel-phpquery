@@ -1,0 +1,24 @@
+{
+    "name": "huasituo/laravel-phpquery",
+    "description": "phpQuery是EsQuery的依赖(http://esquery.net/)，phpQuery项目主页:http://code.google.com/p/phpquery/",
+    "homepage": "http://code.google.com/p/phpquery/",
+    "license": "MIT",
+    "require": {
+    	"PHP":">=5.3.0"
+    },
+    "authors": [
+        {
+            "name": "Tobiasz Cudnik"
+            ,"email": "tobiasz.cudnik@gmail.com"
+            ,"homepage": "https://github.com/TobiaszCudnik"
+            ,"role": "Developer"
+        } 
+        ,{
+            "name": "huasituo",
+            "role": "Packager"
+        }
+    ],
+    "autoload":{
+        "classmap":["phpQuery.php"]
+    }
+}
